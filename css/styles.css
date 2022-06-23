@@ -877,6 +877,10 @@ img {
 	margin-right: 7px;
 }
 
+.modal-check {
+	transition: border var(--transition);
+}
+
 .modal-check:checked + .modal-custom-check {
 	border: 2px solid var(--accent-text-color);
 	background-color: var(--accent-text-color);
