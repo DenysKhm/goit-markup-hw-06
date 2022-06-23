@@ -511,6 +511,10 @@ img {
 	margin-bottom: 20px;
 }
 
+.subscribe {
+	margin-left: auto;
+}
+
 .subscribe-mail {
 	display: flex;
 	align-items: center;
@@ -526,9 +530,18 @@ img {
 	border-radius: 4px;
 	background-color: transparent;
 	padding: 15px 16px;
+	cursor: pointer;
+}
+
+.subscribe-input:hover,
+.subscribe-input:focus {
+	border: 1px solid var(--accent-text-color);
+	outline: none;
 }
 
 .subscribe-button {
+	width: 200px;
+	height: 50px;
 	display: flex;
 	align-items: center;
 	text-align: center;
@@ -543,6 +556,7 @@ img {
 	color: #ffffff;
 	margin-right: 10px;
 }
+
 /* .soc-links-footer-item {
     width: 44px;
     height: 44px;
